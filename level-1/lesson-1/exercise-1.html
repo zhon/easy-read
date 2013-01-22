@@ -46,24 +46,18 @@
 
     <div class="step slide" data-x="4000" data-y="-1500">
         <img src="images/exercise-1/AppleWorks 6  6.jpg" />
-        <audio controls>
+        <audio preload controls>
             <source src='../../sound-bites/n.mp3' type='audio/mpeg' />
             Your browser does not support the HTML5 Audio spec.
         </audio>
     </div>
 
-    <script>
-        var body = document.getElementsByTagName("body")[0];
-        body.addEventListener("impress:stepenter", function(e) {
-            var audio = e.target.getElementsByTagName("audio")[0];
-            if (audio) {
-                audio.play();
-            }
-        }, false)
-    </script>
-
     <div class="step slide" data-x="5000" data-y="-1500">
         <img src="images/exercise-1/AppleWorks 6  7.jpg" />
+        <audio preload controls>
+            <source src='../../sound-bites/trace_n.mp3' type='audio/mpeg' />
+            Your browser does not support the HTML5 Audio spec.
+        </audio>
     </div>
 
     <div class="step slide" data-x="6000" data-y="-1500">
@@ -88,6 +82,10 @@
 
     <div class="step slide" data-x="11000" data-y="-1500">
         <img src="images/exercise-1/AppleWorks 6 13.jpg" />
+        <audio preload controls>
+            <source src='../../sound-bites/say_n.mp3' type='audio/mpeg' />
+            Your browser does not support the HTML5 Audio spec.
+        </audio>
     </div>
 
 
@@ -101,6 +99,8 @@
     </script>
 
     <script src="../../js/impress.js"></script>
+    <script src="../../js/application.js"></script>
+
     <script>impress().init();</script>
 
 </body>
