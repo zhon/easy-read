@@ -4,29 +4,21 @@
         <link rel="stylesheet" href="lib/reveal/css/reveal.min.css">
 
         <script type="text/javascript">
-            function MyController($scope, $http, $location) {
-                $scope.location = $location;
-                $http.get('program/levels/lessons/draw-a.json').success(function(data) {
-                       $scope.slides = data;
-                       setTimeout(function() {
-                            Reveal.initialize();
-                       }, .1 * 1000);
-                });
-            }
         </script>
     </head>
     <body>
         <div class="reveal">
-            <div class="slides" ng-controller=MyController>
+            <div class="slides" ng-controller=ExerciseController>
                 <section ng-repeat="slide in slides">
                     <section ng-repeat="image in slide.images">
-                        <img ng-src="{{image}}" />
+                        <img autoSlide=3 ng-src="{{image}}" />
                     </section>
                 </section>
             </div>
         </div>
 
         <script src="lib/angular/angular.js"></script>
+        <script src="js/controllers.js"></script>
         <script src="lib/reveal/reveal.js"></script>
     </body>
 </html>
