@@ -1,7 +1,7 @@
 <!doctype html>
 <html ng-app>
     <head>
-        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="lib/reveal/css/reveal.min.css">
 
         <script type="text/javascript">
             function MyController($scope, $http, $location) {
@@ -10,7 +10,7 @@
                        $scope.slides = data;
                        setTimeout(function() {
                             Reveal.initialize();
-                       }, 1 * 1000);
+                       }, .1 * 1000);
                 });
             }
         </script>
