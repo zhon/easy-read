@@ -1,0 +1,9 @@
+<div class="reveal">
+    <div class="slides" ng-controller="ExerciseController">
+        <div ng-repeat="slide in slides">
+            <section ng-repeat="image in slide.images">
+                <img ng-src={{image}} />
+            </section>
+        </div>
+    </div>
+</div>
