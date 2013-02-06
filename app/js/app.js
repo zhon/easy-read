@@ -2,7 +2,8 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [], function($routeProvider, $locationProvider) {
+angular.module('myApp', ['myApp.directives'],
+        function($routeProvider, $locationProvider) {
 
         $routeProvider.when('/level/:level/lesson/:lesson/:exercise', {
             templateUrl: 'partials/exercise.html',
