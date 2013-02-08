@@ -19,37 +19,36 @@
 var app = angular.module('myApp', []);
 
 app.directive('slide', function () {
-    return {
-        restrict: 'A'
-        ,link: function (scope, element, attrs, controller) {
-          // resorting to jQuery way
-          if (scope.slide.steps.length == 1) {
-            element.html(
-                '<h1>' +
-                    scope.slide.steps[0] +
-                '</h1>'
-            );
-          } else {
-            var sections = '';
-            for (i=0,len=scope.slide.steps.length; i < len; ++i) {
-              sections += '<section ' +
-                function () {
-                  result = '';
-                  if (i !== len-1) {
-                    result = 'data-autoslide="1000" ';
-                  }
-                  return result;
-                }() +
-                '><h1>' +
-                scope.slide.steps[i] +
-                '</h1></section>';
-              }
-              element.html(sections);
-          }
+  return {
+    restrict: 'A'
+    ,link: function (scope, element, attrs, controller) {
+      // resorting to jQuery way
+      if (scope.slide.steps.length == 1) {
+        element.html(
+          '<h1>' +
+          scope.slide.steps[0] +
+          '</h1>'
+        );
+      } else {
+        var sections = '';
+        for (i=0,len=scope.slide.steps.length; i < len; ++i) {
+          sections += '<section ' +
+            function () {
+            result = '';
+            if (i !== len-1) {
+              result = 'data-autoslide="1000" ';
+            }
+            return result;
+          }() +
+          '><h1>' +
+          scope.slide.steps[i] +
+          '</h1></section>';
+        }
+        element.html(sections);
       }
     }
-
- });
+  }
+});
 
 function MyController($scope) {
     $scope.slides = [
@@ -60,7 +59,7 @@ function MyController($scope) {
     setTimeout(function() {
             Reveal.initialize({
                 loop: false,
-                transition: Reveal.getQueryHash().transition || 'linear'
+                transition: Reveal.getQueryHash().transition || 'none'
             });
     }, .1 * 1000);
 }
