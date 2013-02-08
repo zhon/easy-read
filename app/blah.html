@@ -18,31 +18,36 @@
 <script type="text/javascript" charset="utf-8">
 var app = angular.module('myApp', []);
 
+
 app.directive('slide', function () {
+
+  var wrapContent = function (content) {
+    return '<h1>' + content + '</h1>';
+  };
+
   return {
     restrict: 'A'
     ,link: function (scope, element, attrs, controller) {
       // resorting to jQuery way
       if (scope.slide.steps.length == 1) {
         element.html(
-          '<h1>' +
-          scope.slide.steps[0] +
-          '</h1>'
+          wrapContent(scope.slide.steps[0])
         );
       } else {
         var sections = '';
         for (i=0,len=scope.slide.steps.length; i < len; ++i) {
-          sections += '<section ' +
+          sections +=
+            '<section ' +
             function () {
-            result = '';
-            if (i !== len-1) {
-              result = 'data-autoslide="1000" ';
-            }
-            return result;
-          }() +
-          '><h1>' +
-          scope.slide.steps[i] +
-          '</h1></section>';
+              result = '';
+              if (i !== len-1) {
+                result = 'data-autoslide="1000" ';
+              }
+              return result;
+            }() +
+            '>' +
+            wrapContent(scope.slide.steps[i]) +
+            '</section>';
         }
         element.html(sections);
       }
