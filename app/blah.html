@@ -28,7 +28,7 @@ app.directive('slide', function () {
   return {
     restrict: 'A'
     ,link: function (scope, element, attrs, controller) {
-      // resorting to jQuery way
+      // resorting to imparative jQuery way
       if (scope.slide.steps.length == 1) {
         element.html(
           wrapContent(scope.slide.steps[0])
