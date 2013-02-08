@@ -1,0 +1,72 @@
+<html>
+<head>
+    <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.min.css">
+    <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/default.css">
+</head>
+
+<body>
+<div ng-app='myApp' class="reveal">
+    <div class="slides" ng-controller='MyController'>
+        <section ng-repeat="slide in slides">
+            <section data-autoslide="1000" class="none" ng-repeat="step in slide.steps" ng-show="slide.steps.length > 1">
+                <h1>
+                    {{step}}
+                </h1>
+            </section>
+            <h1 ng-show="slide.steps.length == 1">
+                {{step}}
+            </h1>
+        </section>
+    </div>
+</div>
+
+<script src="https://raw.github.com/hakimel/reveal.js/master/js/reveal.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+var app = angular.module('myApp', []);
+
+app.directive('slide', function () {
+    return {
+        require: 'A',
+        replace: true,
+        template:
+            '<section  transition="none" ng-repeat="step in slide.steps">' +
+            '    <h1>' +
+            '        {{step}}' +
+            '    </h1>' +
+            '</section>'
+            ,compile: function (element, attrs, controller) {
+                return {
+                    pre: function (scope, element, attrs, controller) {
+                        element
+                    }
+                }
+                if (scope.slide.steps.length === 1) {
+                    // data-autoslide="1000"
+                    // remove the section
+                    // keep the {{step}
+                    // add attribute 'data-autoslide=1000' transition='none'
+                }
+            }
+    }
+
+ });
+
+function MyController($scope) {
+    $scope.slides = [
+        { 'steps': ['a'] },
+        { 'steps': ['b1'] },
+        { 'steps': ['c1'] }
+    ];
+    setTimeout(function() {
+            Reveal.initialize({
+                loop: false,
+                transition: Reveal.getQueryHash().transition || 'linear'
+            });
+    }, .1 * 1000);
+}
+</script>
+
+</body>
+</html>
