@@ -1,7 +1,5 @@
 'use strict';
 
-/* Controllers */
-
 function ExerciseController($scope, $http, $route, $routeParams) {
     $http.get('program/levels/lessons/' + $routeParams.exercise + '.json').success(function(data) {
     console.log($routeParams.exercise);
@@ -16,11 +14,3 @@ function ExerciseController($scope, $http, $route, $routeParams) {
 }
 //ExerciseController.$inject = [];
 
-
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
-
-
-function MyCtrl2() {
-}
-MyCtrl2.$inject = [];

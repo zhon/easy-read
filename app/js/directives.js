@@ -1,8 +1,5 @@
 'use strict';
 
-/* Directives */
-
-
 angular.module('myApp.directives', [])
     .directive('slide', function() {
 
