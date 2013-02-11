@@ -10,15 +10,21 @@ angular.module('myApp.directives', [])
         return {
             restrict: 'A'
             ,link: function (scope, element, attrs, controller) {
+                var content = '';
+
+                if (scope.slide.audio) {
+                    content += '<audio preload="auto" controls >';
+                    content += '<source src="';
+                    content += scope.slide.audio;
+                    content += '" type="audio/mpeg" />';
+                    content += '</audio>';
+                }
                 // resorting to imparative jQuery way
                 if (scope.slide.images.length == 1) {
-                    element.html(
-                        wrapContent(scope.slide.images[0])
-                    );
+                    content += wrapContent(scope.slide.images[0])
                 } else {
-                    var sections = '';
                     for (var i=0,len=scope.slide.images.length; i < len; ++i) {
-                        sections +=
+                        content +=
                             '<section ' +
                             function () {
                                 var result = '';
@@ -31,8 +37,8 @@ angular.module('myApp.directives', [])
                             wrapContent(scope.slide.images[i]) +
                             '</section>';
                     }
-                    element.html(sections);
                 }
+                element.html(content);
             }
         }
     });

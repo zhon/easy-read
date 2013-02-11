@@ -2,7 +2,6 @@
 
 function ExerciseController($scope, $http, $route, $routeParams) {
     $http.get('program/levels/lessons/' + $routeParams.exercise + '.json').success(function(data) {
-    console.log($routeParams.exercise);
         $scope.slides = data;
         setTimeout(function() {
             Reveal.initialize({
