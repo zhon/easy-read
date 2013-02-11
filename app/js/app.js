@@ -15,3 +15,17 @@ angular.module('myApp', ['myApp.directives'],
 
         //$locationProvider.html5Mode(true);
 });
+
+
+
+(function ( document, window ) {
+    'use strict';
+    var body = document.getElementsByTagName("body")[0];
+    body.addEventListener("slidechanged", function(e) {
+        var audio = e.currentSlide.getElementsByTagName("audio")[0];
+        if (audio) {
+            audio.load();
+            audio.play();
+        }
+    }, false)
+})(document, window);
