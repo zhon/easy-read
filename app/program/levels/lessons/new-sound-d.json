@@ -9,40 +9,53 @@
     [
         "img/new-sound-d/AppleWorks 6  2.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/you-know-a.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6  3.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/this-is-d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6  4.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/a-is-a-short-letter.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6  5.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/d-is-a-tall-letter.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6  6.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/a.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6  7.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
+        "img/new-sound-d/AppleWorks 6  6.jpg"
+    ]
+    ,"audio": "program/sounds/a.mp3"
+},{
+    "images":
+    [
+        "img/new-sound-d/AppleWorks 6  7.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
+},{
+    "images":
+    [
+        "img/new-sound-d/AppleWorks 6  8.jpg",
         "img/new-sound-d/AppleWorks 6  8.jpg",
         "img/new-sound-d/AppleWorks 6  8.jpg",
         "img/new-sound-d/AppleWorks 6  9.jpg",
@@ -51,47 +64,45 @@
         "img/new-sound-d/AppleWorks 6 12.jpg",
         "img/new-sound-d/AppleWorks 6 13.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/trace-d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 14.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/say-d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 15.jpg"
     ]
-    ,"audio": ""
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 16.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 17.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 18.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 19.jpg"
     ]
-    ,"audio": ""
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
         "img/new-sound-d/AppleWorks 6 20.jpg"
     ]
-    ,"audio": ""
 }]
