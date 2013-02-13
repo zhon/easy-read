@@ -3,7 +3,6 @@
     [
         "img/find-letter-n-a-d/AppleWorks 6  1.jpg"
     ]
-    ,"audio": "program/sounds/find-letter-n-a-d.mp3"
 },{
     "images":
     [
@@ -15,79 +14,77 @@
     [
         "img/find-letter-n-a-d/AppleWorks 6  2.jpg"
     ]
+    ,"audio": "program/sounds/a.mp3"
+},{
+    "images":
+    [
+        "img/find-letter-n-a-d/AppleWorks 6  3.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
+},{
+    "images":
+    [
+        "img/find-letter-n-a-d/AppleWorks 6  5.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6  6.jpg"
     ]
+    ,"audio": "program/sounds/a.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6  7.jpg"
     ]
-},{
-    "images":
-    [
-        "img/find-letter-n-a-d/AppleWorks 6  8.jpg"
-    ]
+    ,"audio": "program/sounds/find-d.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6  9.jpg"
     ]
+    ,"audio": "program/sounds/find-d.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 10.jpg"
     ]
-},{
-    "images":
-    [
-        "img/find-letter-n-a-d/AppleWorks 6 11.jpg"
-    ]
+    ,"audio": "program/sounds/d.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 12.jpg"
     ]
+    ,"audio": "program/sounds/find-a.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 13.jpg"
     ]
-},{
-    "images":
-    [
-        "img/find-letter-n-a-d/AppleWorks 6 14.jpg"
-    ]
+    ,"audio": "program/sounds/a.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 15.jpg"
     ]
+    ,"audio": "program/sounds/find-a.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 16.jpg"
     ]
-},{
-    "images":
-    [
-        "img/find-letter-n-a-d/AppleWorks 6 17.jpg"
-    ]
+    ,"audio": "program/sounds/a.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 18.jpg"
     ]
+    ,"audio": "program/sounds/find-d.mp3"
 },{
     "images":
     [
         "img/find-letter-n-a-d/AppleWorks 6 19.jpg"
     ]
-},{
-    "images":
-    [
-        "img/find-letter-n-a-d/AppleWorks 6 20.jpg"
-    ]
+    ,"audio": "program/sounds/d.mp3"
 }]
