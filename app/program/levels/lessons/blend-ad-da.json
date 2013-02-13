@@ -1,0 +1,42 @@
+[{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  1.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  2.jpg"
+    ]
+    ,"audio": "program/sounds/a.mp3"
+},{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  3.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
+},{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  4.jpg"
+    ]
+    ,"audio": "program/sounds/a-d-read-it.mp3"
+},{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  6.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
+},{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  7.jpg"
+    ]
+    ,"audio": "program/sounds/a.mp3"
+},{
+    "images":
+    [
+        "img/blend-ad-da/AppleWorks 6  8.jpg"
+    ]
+    ,"audio": "program/sounds/da-read-it.mp3"
+}]
