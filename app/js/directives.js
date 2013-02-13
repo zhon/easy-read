@@ -11,7 +11,7 @@ angular.module('myApp.directives', [])
             var content = '';
 
             if (scope.slide.audio) {
-                content += '<audio preload="auto" controls >';
+                content += '<audio preload="auto" >';
                 content += '<source src="';
                 content += scope.slide.audio;
                 content += '" type="audio/mpeg" />';
