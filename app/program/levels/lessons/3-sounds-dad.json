@@ -1,0 +1,48 @@
+[{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  1.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  2.jpg"
+    ]
+    ,"audio": "program/sounds/say-dad.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  3.jpg"
+    ]
+    ,"audio": "program/sounds/3-sounds-in-dad.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  4.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  5.jpg"
+    ]
+    ,"audio": "program/sounds/a.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  6.jpg"
+    ]
+    ,"audio": "program/sounds/d.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  7.jpg"
+    ]
+    ,"audio": "program/sounds/da.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  8.jpg"
+    ]
+    ,"audio": "program/sounds/daad-dad-say-dad.mp3"
+}]
