@@ -12,6 +12,12 @@
 },{
     "images":
     [
+        "img/3-sounds-dad/AppleWorks 6  2.jpg"
+    ]
+    ,"audio": "program/sounds/there-are.mp3"
+},{
+    "images":
+    [
         "img/3-sounds-dad/AppleWorks 6  3.jpg"
     ]
     ,"audio": "program/sounds/3-sounds-in-dad.mp3"
@@ -44,5 +50,17 @@
     [
         "img/3-sounds-dad/AppleWorks 6  8.jpg"
     ]
-    ,"audio": "program/sounds/daad-dad-say-dad.mp3"
+    ,"audio": "program/sounds/daad.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  8.jpg"
+    ]
+    ,"audio": "program/sounds/dad.mp3"
+},{
+    "images":
+    [
+        "img/3-sounds-dad/AppleWorks 6  8.jpg"
+    ]
+    ,"audio": "program/sounds/say-dad.mp3"
 }]
