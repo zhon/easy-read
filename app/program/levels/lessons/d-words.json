@@ -3,11 +3,7 @@
     [
         "img/d-words/AppleWorks 6  1.jpg"
     ]
-},{
-    "images":
-    [
-        "img/d-words/AppleWorks 6  2.jpg"
-    ]
+    ,"audio": "program/sounds/d-words.mp3"
 },{
     "images":
     [
@@ -27,6 +23,11 @@
     "images":
     [
         "img/d-words/AppleWorks 6  5.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6  6.jpg"
     ]
 },{
     "images":
@@ -51,9 +52,13 @@
 },{
     "images":
     [
+        "img/d-words/AppleWorks 6 11.jpg"
+    ]
+},{
+    "images":
+    [
         "img/d-words/AppleWorks 6 12.jpg"
     ]
-    ,"audio": "program/sounds/d-words.mp3"
 },{
     "images":
     [
@@ -68,6 +73,11 @@
     "images":
     [
         "img/d-words/AppleWorks 6 15.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 16.jpg"
     ]
 },{
     "images":
@@ -92,6 +102,61 @@
 },{
     "images":
     [
-        "img/d-words/AppleWorks 6 20.jpg"
+        "img/d-words/AppleWorks 6 21.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 22.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 23.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 24.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 25.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 26.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 27.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 28.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 29.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 30.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 31.jpg"
+    ]
+},{
+    "images":
+    [
+        "img/d-words/AppleWorks 6 32.jpg"
     ]
 }]
