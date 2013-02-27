@@ -24,7 +24,9 @@ angular.module('myApp', ['myApp.directives'],
     body.addEventListener("slidechanged", function(e) {
         var audio = e.currentSlide.getElementsByTagName("audio")[0];
         if (audio) {
-            audio.load();
+            if (audio.readyState == 0) {
+                audio.load();
+            }
             audio.play();
         }
     }, false)
