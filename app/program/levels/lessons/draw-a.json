@@ -6,14 +6,12 @@
 },{
     "images":
     [
-        "img/draw-a/AppleWorks 6  2.jpg",
         "img/draw-a/AppleWorks 6  3.jpg"
     ]
     , "audio": ""
 },{
     "images":
     [
-        "img/draw-a/AppleWorks 6  4.jpg",
         "img/draw-a/AppleWorks 6  5.jpg",
         "img/draw-a/AppleWorks 6  6.jpg",
         "img/draw-a/AppleWorks 6  7.jpg",
@@ -26,11 +24,6 @@
     "images":
     [
         "img/draw-a/AppleWorks 6 11.jpg"
-    ]
-    , "audio": ""
-},{
-    "images":
-    ["img/draw-a/AppleWorks 6 12.jpg"
     ]
     , "audio": ""
 }]
