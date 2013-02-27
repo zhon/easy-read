@@ -74,11 +74,6 @@
 },{
     "images":
     [
-        "img/new-sound-d/AppleWorks 6 15.jpg"
-    ]
-},{
-    "images":
-    [
         "img/new-sound-d/AppleWorks 6 16.jpg"
     ]
     ,"audio": "program/sounds/d.mp3"
@@ -100,9 +95,4 @@
         "img/new-sound-d/AppleWorks 6 19.jpg"
     ]
     ,"audio": "program/sounds/d.mp3"
-},{
-    "images":
-    [
-        "img/new-sound-d/AppleWorks 6 20.jpg"
-    ]
 }]
