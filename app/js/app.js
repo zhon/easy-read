@@ -27,6 +27,10 @@ angular.module('myApp', ['myApp.directives'],
             if (audio.readyState == 0) {
                 audio.load();
             }
+            audio.currentTime=0;
+            if (audio.currentTime != 0) {
+                audio.load();
+            }
             audio.play();
         }
     }, false)
