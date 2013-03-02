@@ -1,20 +1,21 @@
 [
 
     [
-        'draw-n', 'trace-n', 'n-words', 'words-n', 'draw-a', 'trace-a',
-        'a-words', 'find-a-n', 'blend-an-na', 'move-right', 'read-right',
-        'add-sound-nan', 'last-sound-n', 'middle-sound-a', '3-sounds-nan',
-        '3-letters-nan', 'read-a-word-nan', 'sound-out-nan'
+        "draw-n", "trace-n", "n-words", "words-n", "draw-a", "trace-a",
+        "a-words", "find-a-n", "blend-an-na", "move-right", "read-right",
+        "add-sound-nan", "last-sound-n", "middle-sound-a", "3-sounds-nan",
+        "3-letters-nan", "read-a-word-nan", "sound-out-nan"
     ],[
-        'draw-n', 'trace-n', 'n-words', 'words-n', 'draw-a', 'trace-a',
-        'a-words', 'find-a-n', 'blend-an-na', 'move-right', 'read-right',
-        'add-sound-nan', 'last-sound-n', 'middle-sound-a', '3-sounds-nan',
-        '3-letters-nan', 'read-a-word-nan', 'sound-out-nan'
+        "new-sound-d", "finny-fish-n-a-d", "find-letter-n-a-d", "d-words",
+        "words-d", "blend-ad-da", "seesaw-ad-da", "find-ad-da", "last-sound-d",
+        "find-dad", "3-sounds-dad", "sound-out-dad", "3-letters-dad",
+        "read-right-dad", "read-word-dad", "add-sound-da-ad",
+        "bounce-letter-dad", "read-book-dad"
     ],[
 
-        'clock-an-na', 'clock-ad-da',
+        "clock-an-na", "clock-ad-da",
 
-        'read-book-nan-and-dan'
+        "read-book-nan-and-dan"
     ]
 ]
 
