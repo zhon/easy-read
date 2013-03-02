@@ -1,3 +1,20 @@
 [
-    ['n', 'trace-n', 'n-word', word-n', 'draw-a']
+
+    [
+        'draw-n', 'trace-n', 'n-words', 'words-n', 'draw-a', 'trace-a',
+        'a-words', 'find-a-n', 'blend-an-na', 'move-right', 'read-right',
+        'add-sound-nan', 'last-sound-n', 'middle-sound-a', '3-sounds-nan',
+        '3-letters-nan', 'read-a-word-nan', 'sound-out-nan'
+    ],[
+        'draw-n', 'trace-n', 'n-words', 'words-n', 'draw-a', 'trace-a',
+        'a-words', 'find-a-n', 'blend-an-na', 'move-right', 'read-right',
+        'add-sound-nan', 'last-sound-n', 'middle-sound-a', '3-sounds-nan',
+        '3-letters-nan', 'read-a-word-nan', 'sound-out-nan'
+    ],[
+
+        'clock-an-na', 'clock-ad-da',
+
+        'read-book-nan-and-dan'
+    ]
 ]
+
