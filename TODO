@@ -1,2 +1,26 @@
 Better words for a
   - antenna, app, aft, add, apt, ash, ask, act, anvil, address, alligator, aloe, answer, aspen, astronaut, athlete, avocado, axle
+
+Slide should move from exercise to exercise
+
+Interactions should move screen until sound is finished
+
+Slides should swipe
+    - Animation seperate from slide
+
+Need Quiz touch areas
+
+new-sound-d
+    Split out trace-d from new-sound-d
+    remove quiz ds
+
+finny-fish
+    swim to and pop letter when touched
+    finish animation by swimming off
+
+find-letter-n-a-d
+    touch letter says sound and move to next slide
+    hints?
+
+d-words
+    split out sounds
