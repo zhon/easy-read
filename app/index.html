@@ -6,22 +6,24 @@
     </head>
     <body>
 
-        <div ng-view class="reveal">
+        <div class="reveal">
+            <div ng-view class="slides">
+            </div>
         </div>
 
         <script src="lib/angular/angular.js"></script>
         <script src="js/app.js"></script>
         <script src="js/controllers.js"></script>
         <script src="js/directives.js"></script>
-        <!--<script src="lib/reveal/reveal.js"></script>-->
-        <script src="https://raw.github.com/hakimel/reveal.js/master/js/reveal.min.js"></script>
+        <script src="lib/reveal/reveal.js"></script>
+        <!--<script src="https://raw.github.com/hakimel/reveal.js/master/js/reveal.min.js"></script>-->
         <script>
             setTimeout(function() {
                 Reveal.initialize({
                     // default/cube/page/concave/zoom/linear/fade/none
                     transition: 'none'
                 });
-            }, .5 * 1000 );
+            }, .1 * 1000 );
         </script>
     </body>
 </html>
