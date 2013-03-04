@@ -5,10 +5,15 @@
 angular.module('myApp', ['myApp.directives'],
         function($routeProvider, $locationProvider) {
 
-        $routeProvider.when('/level/:level/lesson/:lesson/:exercise', {
-            templateUrl: 'partials/exercise.html',
-            controller: ExerciseController
+        $routeProvider.when('/level/:level/lesson/:lesson', {
+            templateUrl: 'partials/lesson.html',
+            controller: LessonController
         });
+
+        //$routeProvider.when('/level/:level/lesson/:lesson/:exercise', {
+            //templateUrl: 'partials/exercise.html',
+            //controller: ExerciseController
+        //});
 
         //$routeProvider.otherwise({redirectTo: '/lesson1'});
         //
